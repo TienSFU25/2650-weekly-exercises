@@ -43,8 +43,6 @@ Create a second stylesheet `style2.css` that makes the page look more-or-less li
 Again, the display should adapt to different window sizes in a reasonable way.
 Hints: colours I used were #64a and #66c.
 
-Create HTML page(s) and corresponding CSS that demonstrates that technique. Include a note/link on the page(s) about which technique you are implementing. Pack the files up in a ZIP for submission.
-
 ### Q3: SVG
 
 In SVG, figure out a way to write out your name using path. You can write in print or recursive.
