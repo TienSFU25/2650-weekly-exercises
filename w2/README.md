@@ -33,15 +33,11 @@ https://docs.github.com/en/repositories/creating-and-managing-repositories/creat
 
 Using the Git knowledge you've learned so far, initialize a Git repo locally.
 
-On `master/main`, create 3 commits, each with one text file named 1.txt, 2.txt, 3.txt. Each of these files contain just the number in the filename (1.txt has 1)
-
-Switch to another branch `experiment`. Change the 1 in 1.txt to 4. Commit
-
-Switch back to `main`. Change the 1 in 1.txt to 5. Commit
-
-Switch to `experiment2`. `git reset --hard experiment` , this moves HEAD to the same commit as experiment (the one where 1.txt has 4). Now `git merge master`, fix conflicts, and commit
-
-Switch to `experiment3`. Again, `git reset --hard experiment`. Now `git rebase master`, fix conflicts, `git rebase --continue`, and commit
+1. On `master/main`, create 3 commits, each with one text file named 1.txt, 2.txt, 3.txt. Each of these files contain just the number in the filename (1.txt has 1)
+2. Switch to another branch `experiment`. Change the 1 in 1.txt to 4. Commit
+3. Switch back to `main`. Change the 1 in 1.txt to 5. Commit
+4. Switch to `experiment2`. `git reset --hard experiment` , this moves HEAD to the same commit as experiment (the one where 1.txt has 4). Now `git merge master`, fix conflicts, and commit
+5. Switch to `experiment3`. Again, `git reset --hard experiment`. Now `git rebase master`, fix conflicts, `git rebase --continue`, and commit
 
 For conflict resolution, just keep both the 4 and the 5 in 1.txt
 
