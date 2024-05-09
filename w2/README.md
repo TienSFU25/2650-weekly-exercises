@@ -4,7 +4,13 @@ We will lean on this excellent Git resource https://learngitbranching.js.org/
 
 Complete every exercise under "Main", except for the "Advanced topics". Take a screenshot. Mine looks like this
 
+![image](https://github.com/TienSFU25/2650-weekly-exercises/assets/10173141/b64cbb8f-1192-4482-92bd-2e2b7acd95f4)
+
 Under "Remote", complete all questions under "Push & Pull — Git Remotes". Take a screenshot
+
+![image](https://github.com/TienSFU25/2650-weekly-exercises/assets/10173141/b242e470-4cbc-4da0-8f15-d11e6795f29d)
+
+(I haven't completed the easier stuff, but hey...I'm the instructor, lol!)
 
 Write an explanation for the following questions:
 
@@ -19,6 +25,8 @@ If you don't have a Github account yet, Create one using the instructions here h
 
 Setup SSH keys if you haven't done so yet. This will allow you to push/pull from Github
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+
+![image](https://github.com/TienSFU25/2650-weekly-exercises/assets/10173141/03bf0cd7-7777-4b96-b8bf-19a32cb69998)
 
 Now follow these instructions to create a repository. Make sure your repo is public so the marker can view it
 https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository
