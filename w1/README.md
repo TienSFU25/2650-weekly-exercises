@@ -47,15 +47,9 @@ Create HTML page(s) and corresponding CSS that demonstrates that technique. Incl
 
 ### Q3: SVG
 
-In SVG, figure out a way to write out your name using path. You can write in print or recursive. Figure out a way to animate it using keyframes. It could be the most basic translate or rotation, or you can get as creative as you'd like
+In SVG, figure out a way to write out your name using path. You can write in print or recursive.
 
-#### Other CSS Techniques
-
-Pick two interesting-looking CSS techniques from these articles:
-CSS Tricks
-12 Awesome CSS3 Features
-
-[If you have any other suggestions for techniques to add here, email Tien.]
+Figure out a way to animate it using keyframes. It could be the most basic translate or rotation, or you can get as creative as you'd like
 
 ### Submission
 
