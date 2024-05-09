@@ -51,6 +51,6 @@ Push your local Git repo onto the Github remote repository and submit the repo U
 
 ### Submission
 
-Screenshot of how much you've been able to do from https://learngitbranching.js.org/
-Explanation of the 4 questions
-A Github link to your Github repo
+1. Screenshot of how much you've been able to do from https://learngitbranching.js.org/
+2. Explanation of the 4 questions
+3. A Github link to your Github repo
