@@ -1,4 +1,4 @@
-### Q1. Flexbox
+### Q1. Flexbox [2 points each]
 
 Youtube any "flexbox explained" video. Download "flex1.html" and open it in your web browser. You should see this
 
@@ -18,7 +18,7 @@ Modify the CSS file using Flexbox so that you get these results. Note: these que
 
 ![image](https://github.com/TienSFU25/2650-weekly-exercises/assets/10173141/59882503-3e2c-4fe3-89be-81ec0cf853cd)
 
-### Q2: Basic CSS techniques.
+### Q2: Basic CSS techniques [2 points each]
 
 Credits to Greg Baker: https://coursys.sfu.ca/2021fa-cmpt-470-d1/pages/Exercise2
 
@@ -43,11 +43,11 @@ Create a second stylesheet `style2.css` that makes the page look more-or-less li
 Again, the display should adapt to different window sizes in a reasonable way.
 Hints: colours I used were #64a and #66c.
 
-### Q3: SVG
+### Q3: SVG and animations [5 points]
 
-In SVG, figure out a way to write out your name using path. You can write in print or recursive.
+In SVG, figure out a way to write out your name using path. You can write in print or recursive. [2]
 
-Figure out a way to animate it using keyframes. It could be the most basic translate or rotation, or you can get as creative as you'd like
+Figure out a way to animate it using keyframes. It could be the most basic translate or rotation, or you can get as creative as you'd like [3]
 
 ### Submission
 
@@ -55,6 +55,6 @@ For Q1, submit three CSS files using `flex1.css` as a template, for each questio
 
 For Q2, submit `style1.css`, `style2.css`
 
-For Q3, submit both the HTML and CSS files
+For Q3, submit a new HTML and CSS file for your animated SVG
 
 Put everything in a .zip folder and submit on Brightspace
