@@ -42,10 +42,14 @@ Using the Git knowledge you've learned so far, initialize a Git repo locally.
 For conflict resolution, just keep both the 4 and the 5 in 1.txt
 
 Recap: you should have 3 branches
-`master/main`: should have 4 commits. 1.txt has 5
-`experiment`: 4 commits. 1.txt has 4
-`experiment2`: 5 commits. 1.txt has 4 5
-`experiment3`: 5 commits. 1.txt has 4 5 (or 5 4)
+
+`master/main`: should have 4 commits. `1.txt` has 5
+
+`experiment`: 4 commits. `1.txt` has 4
+
+`experiment2`: 5 commits. `1.txt` has 4 5
+
+`experiment3`: 5 commits. `1.txt` has 4 5 (or 5 4)
 
 Push your local Git repo onto the Github remote repository and submit the repo URL.
 
