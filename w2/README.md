@@ -41,7 +41,7 @@ Using the Git knowledge you've learned so far, initialize a Git repo locally.
 
 For conflict resolution, just keep both the 4 and the 5 in 1.txt
 
-Recap: you should have 3 branches
+Recap: you should have 4 branches, `main` and 3 `experiments`
 
 `master/main`: should have 4 commits. `1.txt` has 5
 
