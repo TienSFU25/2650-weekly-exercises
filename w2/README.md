@@ -1,8 +1,10 @@
-### Question 1
+### Question 1 [14 points]
 
 We will lean on this excellent Git resource https://learngitbranching.js.org/
 
-Complete every exercise under "Main", except for the "Advanced topics". Take a screenshot. Mine looks like this
+Complete every exercise under "Main", except for the "Advanced topics" **[10 points]**
+
+Take a screenshot. Mine looks like this
 
 ![image](https://github.com/TienSFU25/2650-weekly-exercises/assets/10173141/b64cbb8f-1192-4482-92bd-2e2b7acd95f4)
 
@@ -12,14 +14,14 @@ Under "Remote", complete all questions under "Push & Pull — Git Remotes". Take
 
 (I haven't completed the easier stuff, but hey...I'm the instructor, lol!)
 
-Write an explanation for the following questions:
+Write an explanation for the following questions **[1 point each]**
 
 - A Mixed Bag - Grabbing just 1 commit
 - A Mixed Bag - Juggling commits
 - A Mixed Bag - Juggling commits 2
 - Push & Pull -- Git Remotes - 7. Diverged History
 
-### Question 2 - Github setup
+### Question 2 - Github setup [6 points]
 
 If you don't have a Github account yet, Create one using the instructions here https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account
 
@@ -33,7 +35,7 @@ https://docs.github.com/en/repositories/creating-and-managing-repositories/creat
 
 Using the Git knowledge you've learned so far, initialize a Git repo locally.
 
-1. On `master/main`, create 3 commits, each with one text file named `1.txt`, `2.txt`, `3.txt`. Each of these files contain just the number in the filename (1.txt has 1)
+1. On `master/main`, create 3 commits, each with one text file named `1.txt`, `2.txt`, `3.txt`. Each of these files contain just the number in the filename (`1.txt` has 1)
 2. Switch to another branch `experiment`. Change the 1 in `1.txt` to 4. Commit
 3. Switch back to `main`. Change the 1 in `1.txt` to 5. Commit
 4. Switch to `experiment2`. `git reset --hard experiment` , this moves HEAD to the same commit as experiment (the one where `1.txt` has 4). Now `git merge master`, fix conflicts, and commit
