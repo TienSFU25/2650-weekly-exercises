@@ -4,7 +4,7 @@ Our tech eval will be a lighter version of Greg Baker's setup [here](https://cou
 
 Each project group is responsible for demonstrating and evaluating a particular web technology. You should focus on the overall aspects of the tool, as opposed to lists of features.
 
-Groups must propose a list of possible topics by Thursday **June 15, 2024**. See [topic_notes](topic_notes.md) for more information on choosing topics, and [tech_eval_topics](tech_eval_topics.md) for topics for each group.
+Groups must propose a list of possible topics by **June 15, 2024**. See [topic_notes](topic_notes.md) for more information on choosing topics, and [tech_eval_topics](tech_eval_topics.md) for topics for each group.
 
 ### Deliverables
 
