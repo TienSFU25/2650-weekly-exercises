@@ -199,7 +199,7 @@ Example: `listApply([1, 2, 3], (x) => x + 1) // [2, 3, 4]`
 
 Note: you aren't allowed to use `map` here. Use a basic for-loop!
 
-b. Write another function `cadToUsd(usd: number) => number` **[1]**
+b. Write another function `cadToUsd(cad: number) => number` **[1]**
 
 c. Use `listApply` and `cadToUsd` to write `cadsToUsds` (note the plural). Use 0.73 as the conversion rate **[2]**
 
@@ -207,9 +207,14 @@ example: `cadsToUsds([1,2,3]) = [ 0.73, 1.46, 2.19 ]`
 
 d. Use [Array.prototype.reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) to implement `every` **[3]**
 
-`every([1,2,3], isOdd) // false`
+```js
+const isOdd = (x) => x % 2 === 2
 
-`every([1,3,5], isOdd) // true`
+// ...implement `every`
+
+every([1,2,3], isOdd) // false
+every([1,3,5], isOdd) // true
+```
 
 e. Use the following `assert` "library" to write tests for each function in the previous 4 parts **[4]**
 
