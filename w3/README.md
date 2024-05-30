@@ -208,7 +208,7 @@ example: `cadsToUsds([1,2,3]) = [ 0.73, 1.46, 2.19 ]`
 d. Use [Array.prototype.reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) to implement `every` **[3]**
 
 ```js
-const isOdd = (x) => x % 2 === 2
+const isOdd = (x) => x % 2 === 1
 
 // ...implement `every`
 
