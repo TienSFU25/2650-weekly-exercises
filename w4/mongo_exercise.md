@@ -12,12 +12,11 @@ Create a new directory `mongo_test`.
 
 Copy paste [mongo_test.js](mongo_test.js) into a local file. Name it `mongo_test.js`
 
-Configure your `.env` with the appropriate `MONGO_URI` (the connection string `mongodb+srv://...`) and `MONGODBNAME` (I just have MONGODBNAME="sample_mflix" )
+Configure your `.env` with the appropriate `MONGO_URI` (the connection string `mongodb+srv://...`) and `MONGODBNAME = "sample_mflix"`
 
-```js
-// .env file
-MONGO_URI = "mongodb+srv:..."; //...the Mongo connection string
-MONGODBNAME = "sample_mflix";
+```
+MONGO_URI = "mongodb+srv:..."
+MONGODBNAME = "sample_mflix"
 ```
 
 Run `node mongotest.js`. You should see the following
