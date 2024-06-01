@@ -8,7 +8,8 @@ If you don't have Mongo Atlas setup, follow the instructions [here](mongo_atlas_
 
 Create a new directory `mongo_test`.
 
-`npm init, npm i --save dotenv mongodb`
+`npm init`
+`npm i --save dotenv mongodb`
 
 Copy paste [mongo_test.js](mongo_test.js) into a local file. Name it `mongo_test.js`
 
