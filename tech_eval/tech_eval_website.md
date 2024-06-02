@@ -10,7 +10,7 @@ We haven't gotten to the AWS/deployment lectures of the course yet, however you'
 
 ## Submitting
 
-1. A Git tag/SHA for the source code for your site. Follow the convention in [github_submission](../github_submission.mdgithub_submission.md)
+1. A Git SHA + screenshot for the source code for your site. Follow the convention in [github_submission](../github_submission.mdgithub_submission.md)
 
 2. The URL where we can find your demo site. If not submitted, we will assume there is a `README.md` with a one-liner that we can run to get the site up, e.g `docker compose up`.
 

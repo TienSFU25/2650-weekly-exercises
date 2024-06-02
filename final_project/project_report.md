@@ -8,4 +8,4 @@ This is due on the same day the implementation is due, August 2, 2024.
 
 ## Submission
 
-TODO: Tien will make submission link on Brightspace
+Submit your **individual** report on Brightspace

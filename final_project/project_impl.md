@@ -6,7 +6,7 @@ The final product should be a reasonably polished, usable web system. It is expe
 
 ## Submission
 
-Create a Git tag for your submission something like this:
+Create a Git tag for your submission. Something like this:
 
 `git tag final`
 
@@ -14,7 +14,7 @@ Create a Git tag for your submission something like this:
 
 The final implementation submission will include:
 
-1. A Git tag for your project's code. I expect to be able to `docker-compose up` or some other similar one-liner to get stuff running.
+1. A Git tag for your project's code (+SHA + screenshot as always). I expect to be able to `docker-compose up` or some other similar one-liner to get stuff running.
 
 2. A `README.md` file with notes about your system, including:
 
