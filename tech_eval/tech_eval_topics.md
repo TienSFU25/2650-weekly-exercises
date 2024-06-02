@@ -1,11 +1,1 @@
-PLACEHOLDER
-
-This will contain the list of group numbers with associated chosen technologies.
-
-Example:
-
-Group 1: Angular2
-
-Group 2: Aurelia
-
-Group 3: ASP.Net Core
+https://docs.google.com/spreadsheets/d/18nloadV2bwI7Bwbi7xuYgFKTzVn31B1-VPMLoGQt_VI/edit?usp=sharing

@@ -1,4 +1,4 @@
-Write an evaluation summarizing the technology you have chosen and compare it with at least `n - 1` comparable technology alternatives suitable for similar applications (where is your group size). This evaluation should be roughly `200n` words in length.
+Write an evaluation summarizing the technology you have chosen and compare it with at least `n` comparable technology alternatives suitable for similar applications (where `n` is your group size). This evaluation should be roughly `200n` words in length.
 
 The definition of “similar applications” depends on your chosen technology, and could be interpreted quite broadly if necessary.
 

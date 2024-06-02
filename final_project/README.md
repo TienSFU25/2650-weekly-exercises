@@ -8,13 +8,14 @@ As proposals are submitted, project topics will be posted.
 
 The technology evaluation is completed in the project groups (except the overviews and weighting).
 
-1. [Proposal](project_proposal.md), Saturday June 22, 2.5%
+1. [Group formation], Saturday June 15
+2. [Proposal](project_proposal.md), Saturday June 22, 2.5%
 
-2. [Checkpoint Implementation](project_checkpoint.md), Saturday July 6, 2.5%
+3. [Checkpoint Implementation](project_checkpoint.md), Saturday July 6, 2.5%
 
-3. [Final Implementation](project_impl.md), Friday August 2, 25%
+4. [Final Implementation](project_impl.md), Friday August 2, 25%
 
-4. [Project Report](project_report.md), Friday August 2, 5% (individual marks)
+5. [Project Report](project_report.md), Friday August 2, 5% (individual marks)
 
 ### Technology Choices
 
