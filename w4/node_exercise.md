@@ -57,7 +57,7 @@ block content
       button(type="submit") Add Note
 ```
 
-Using `persistence.js`, make changes to `index.pug` so that we could see all the "Notes" on the homepage
+Using `persistence.js`, make changes to `index.js` so that we could see all the "Notes" on the homepage
 
 ![alt text](image-14.png)
 
