@@ -4,11 +4,28 @@ Make sure you have Redis installed.
 
 https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/
 
+### Note for Windows folks
 If you are on Windows, you'll need to install WSL
 
 https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/install-redis-on-windows/
 
-To connect Node/Express with Redis
+**You will want to write code in the Ubuntu subsystem, not Windows**. Remember, Ubuntu is a "subsystem" on its own, that just happens to sit in the Windows OS. All your node versions, npm versions would be different.
+
+Your typical workflow would be
+
+1. Opening up a Ubuntu terminal
+
+![image](https://github.com/TienSFU25/2650-weekly-exercises/assets/10173141/8723005c-6f8c-4b9a-a6f8-12801f0696c4)
+
+2. `cd` to wherever
+
+3. `code .`
+
+This will open up VS Code, and allow you to write code for the Ubuntu subsystem, using the VS Code UI
+
+More info here: https://code.visualstudio.com/learn/develop-cloud/wsl
+
+### Connect Express with Redis
 
 ```js
 import redis from "redis";
@@ -23,14 +40,18 @@ let redisClient;
   await redisClient.connect();
 })();
 
-// other express stuff down here....
+await redisClient.set("foo", "bar");
+const cachedData = await redisClient.get("foo");
+
+console.log(cachedData);
 ```
 
 Read through this guide.
 
 https://www.digitalocean.com/community/tutorials/how-to-implement-caching-in-node-js-using-redis
 
-Onto the exercise. Lets mock some Mongo functions. Using the Mongo stuff you learned last week (with the `sample_mflix` dataset), create a Node server with endpoints for the following
+### The actual exercise
+Lets mock some Mongo functions. Using the Mongo stuff you learned last week (with the `sample_mflix` dataset), create a Node server with endpoints for the following
 
 1. /movies Get the first 10 Movies
 2. /movie:id Get one Movie by its ID
