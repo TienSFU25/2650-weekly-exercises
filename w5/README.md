@@ -1,5 +1,31 @@
 ## Redis
 
+Make sure you have Redis installed.
+
+https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/
+
+If you are on Windows, you'll need to install WSL
+
+https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/install-redis-on-windows/
+
+To connect Node/Express with Redis
+
+```js
+import redis from "redis";
+
+let redisClient;
+
+(async () => {
+  redisClient = redis.createClient();
+
+  redisClient.on("error", (error) => console.error(`Error : ${error}`));
+
+  await redisClient.connect();
+})();
+
+// other express stuff down here....
+```
+
 Read through this guide.
 
 https://www.digitalocean.com/community/tutorials/how-to-implement-caching-in-node-js-using-redis
