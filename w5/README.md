@@ -31,6 +31,20 @@ This will open up VS Code, and allow you to write code for the Ubuntu subsystem,
 
 More info here: https://code.visualstudio.com/learn/develop-cloud/wsl
 
+#### Virtualbox
+
+If WSL is not cutting it, or you want "real" Linux experience, try Virtualbox. It lets you allocate disk space on your local machine to run a guest OS.
+
+https://www.virtualbox.org/wiki/Downloads
+
+You can find Ubuntu ISO here: https://ubuntu.com/download/desktop
+
+I have tested this out and confirmed that you can run `redis-server` with `node` with a Ubuntu VM.
+
+![image](https://github.com/TienSFU25/2650-weekly-exercises/assets/10173141/6700da3f-71cd-4754-aa53-dd0312e6a801)
+
+![image](https://github.com/TienSFU25/2650-weekly-exercises/assets/10173141/f8377aa3-6393-4b71-a64b-0a990b44ef1d)
+
 ### Connect Express with Redis
 
 ```js
