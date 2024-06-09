@@ -11,7 +11,7 @@ The technology evaluation is completed in the project groups (except the overvie
 1. [Group formation], Saturday June 15
 2. [Proposal](project_proposal.md), Saturday June 22, 2.5%
 
-3. [Checkpoint Implementation](project_checkpoint.md), Saturday July 6, 2.5%
+3. [Checkpoint Implementation](project_checkpoint.md), Saturday July 13, 2.5%
 
 4. [Final Implementation](project_impl.md), Friday August 2, 25%
 
