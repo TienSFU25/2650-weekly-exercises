@@ -1,6 +1,6 @@
 ## Project Checkpoint
 
-To make sure you're on the right track and will be ready for your demonstration, you will be required to submit a partial implementation by **Saturday July 12, 2024**. By this time, enough of your project should be working that you could do a small demonstration of your project and give us an idea of what will be done. **Essentially I want to see some working code at this point**
+To make sure you're on the right track and will be ready for your demonstration, you will be required to submit a partial implementation by **Saturday July 13, 2024**. By this time, enough of your project should be working that you could do a small demonstration of your project and give us an idea of what will be done. **Essentially I want to see some working code at this point**
 
 **I also require a Figma wireframe**. You can find Figma tutorials here
 
