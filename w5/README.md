@@ -5,15 +5,16 @@ Make sure you have Redis installed.
 https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/
 
 ### Note for Windows folks
-If you are on Windows, you'll need to install WSL
+If you are on Windows, you have three options
 
+#### Install WSL
 https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/install-redis-on-windows/
 
 Press the Windows key, run "Ubuntu" and start `redis-server`
 
 ![image](https://github.com/TienSFU25/2650-weekly-exercises/assets/10173141/04c82c4a-5bf6-4e17-b3f9-5491bd4fcc86)
 
-This should make Redis available on port `6379`. Skip to the section `Connect Express with Redis` below and things should work
+This should make Redis server available on port `6379`.
 
 **If you want to write code in the Ubuntu subsystem** remember that Ubuntu is a "subsystem" on its own, that just happens to sit in the Windows OS. All your node versions, npm versions would be different.
 
@@ -30,6 +31,12 @@ Your typical workflow for developing in Ubuntu-land would be
 This will open up VS Code, and allow you to write code for the Ubuntu subsystem, using the VS Code UI
 
 More info here: https://code.visualstudio.com/learn/develop-cloud/wsl
+
+#### Docker
+
+We haven't covered Docker in this course yet, so you'll need to install the Docker client. You'll need to run a `redis` container and expose the `6379` port
+
+`docker run -p 6379:6379 --name my-redis-container -d redis`
 
 #### Virtualbox
 
