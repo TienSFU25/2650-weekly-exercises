@@ -1,11 +1,10 @@
 ## Redis
 
-Make sure you have Redis installed.
+Make sure you have Redis installed - [Redis installation docs](https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/).
 
-https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/
-
-### Note for Windows folks
-See [redis_in_windows](redis_in_windows.md)
+> [!IMPORTANT]
+>
+> For folks on Windows - see [options for installation](redis_in_windows.md)
 
 ### Connect Express with Redis
 
@@ -33,41 +32,45 @@ Read through this guide.
 https://www.digitalocean.com/community/tutorials/how-to-implement-caching-in-node-js-using-redis
 
 ### The actual exercise
-Lets mock some Mongo functions. Using the Mongo stuff you learned last week (with the `sample_mflix` dataset), create a Node server with endpoints for the following
 
-1. /movies Get the first 10 Movies
-2. /movie:id Get one Movie by its ID
-3. PATCH /movie:id Update one Movie's title by its ID
-4. DEL /movie:id Delete a movie by its ID
+Let's mock some Mongo functions. Using the Mongo stuff you learned last week (with the `sample_mflix` dataset), create a Node server with the following endpoints:
+
+1. `GET /movies`:  Get the first 10 Movies
+2. `GET /movie:id`: Get one Movie by its ID
+3. `PATCH /movie:id`: Update one Movie's title by its ID
+4. `DELETE /movie:id`: Delete a movie by its ID
 
 You could start with the Node skeleton repo: https://github.com/TienSFU25/2650-express-starter
 
-Now, integrate a caching mechanism onto these 4 endpoints. We want to do both write-through and cache-aside. Think about how this is going to be done
+Now, integrate a caching mechanism onto these 4 endpoints. We want to do both *write-through* and *cache-aside*. Think about how this is going to be done.
 
-- What should the cache store? The Movie object in Mongo is pretty large, for the sake of this exercise lets pretend all we care about for a Movie are its id, name, title
+- What should the cache store? The Movie object in Mongo is pretty large, for the sake of this exercise let's pretend all we care about for a Movie are its `id`, `name`, and `title`.
 - When should we write to the cache? If we just grabbed Movie 5, do we need to visit the DB to get Movie 5 again?
-- When should we invalidate the cache? Assume nothing else interacts from this Mongo database, and Movies are only changed through our Mongo function above
+- When should we invalidate the cache? Assume nothing else interacts with this Mongo database, and Movies are only changed through our Mongo function above.
 
 ## Postman
 
-Sign up for Postman. Figure out a way to blackbox test the caching performance above
+Sign up for Postman. Figure out a way to blackbox test the caching performance above.
 
-Hint: querying MongoDB Atlas for me takes 50ms
+> [!TIP]
+>
+> Hint: For me, querying the same movie via MongoDB Atlas takes ~ 50ms (**Figure 1**) while querying Redis takes ~ 5ms (**Figure 2**).
+
+**Figure 1**: Mongo Response Time
 
 ![alt text](image-1.png)
 
-while querying Redis takes 5ms
+**Figure 2**: Redis Response Time
 
 ![alt text](image-2.png)
 
-So there must be a way to test that
+So there must be a way to test that.
 
-- the first Movie fetch takes about 50ms
-- fetching the same Movie takes on the order of 5ms instead
+> [!TIP]
+>
+> You can use `pm.response.responseTime` for benchmarking - see [Postman docs](https://learning.postman.com/docs/writing-scripts/script-references/test-examples/#test-response-times).
 
-You can use `pm.response.responseTime`
-
-https://learning.postman.com/docs/writing-scripts/script-references/test-examples/#test-response-times
+---
 
 Add Jamie as a contributor to your Postman Workspace: jsam07@hotmail.com
 
@@ -75,7 +78,7 @@ Add Jamie as a contributor to your Postman Workspace: jsam07@hotmail.com
 
 ## Submission
 
-1. Github link to the Redis exercise
+1. GitHub link to the Redis exercise
 2. Postman workspace shared with Jamie's account
 
 ## Grading
