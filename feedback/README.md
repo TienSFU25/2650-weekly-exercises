@@ -19,9 +19,11 @@
     console.log(result.map((x) => x()))
     ```
 
-    > [!TIP]
+    > [!IMPORTANT]
     > **Possible response**: 
     >  The `for` loop is executed three(3) times - `i = 0, i = 1, i = 2`. Even though the `for` loop is not executed after that, `i` is still incremented one last time (`i = 3`). Given that `i` was declared with the `var` keyword, it means the variable is globally scoped (functionally scoped if the above code is wrapped in a function). That means `i === 3`, even after the `for` loop. The subsequent `.map` then tries to access `items[3]`, which of course is `undefined`.
+    
+    > [!TIP]
     > I've been extra verbose here, but the first sentence is arguably not even necessary.
 
 2. **A regurgitation of the commands or steps already provided as part of a question does not amount to an explanation**.
@@ -47,6 +49,8 @@
         ```ts
         const magic = (num) => Math.PI * num
         ```
+        > [!IMPORTANT]
+        > Please don't name functions as `magic` or the like, this is strictly for illustrative purposes.
 
     2. Second, and often forgotten, but equally important - **there should be no side effects**. 
 
