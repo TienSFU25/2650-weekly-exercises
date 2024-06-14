@@ -50,6 +50,7 @@
         const magic = (num) => Math.PI * num
         ```
         > [!IMPORTANT]
+        
         > Please don't name functions as `magic` or the like, this is strictly for illustrative purposes.
 
     2. Second, and often forgotten, but equally important - **there should be no side effects**. 
