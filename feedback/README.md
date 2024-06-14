@@ -31,7 +31,11 @@
 
 3. Pure function
 
+> [!IMPORTANT]
+> Please don't name functions as `magic` or the like, this is strictly for illustrative purposes.
+
     For a function to be pure, two things must be true:
+
     
     1. **The result should be deterministic for a given input**. That is, the same input should always return the same output.
         ```ts
@@ -49,8 +53,7 @@
         ```ts
         const magic = (num) => Math.PI * num
         ```
-> [!IMPORTANT]
-> Please don't name functions as `magic` or the like, this is strictly for illustrative purposes.
+
 
     2. Second, and often forgotten, but equally important - **there should be no side effects**. 
 
