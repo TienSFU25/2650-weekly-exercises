@@ -1,24 +1,20 @@
-### Q1. Flexbox [6]
+### Q1. Flexbox [2 points each]
 
-YouTube any "flexbox explained" video. Download [flex1.html](./flex1.html) and open it in your web browser. You should see this
+Youtube any "flexbox explained" video. Download "flex1.html" and open it in your web browser. You should see this
 
 ![image](https://github.com/TienSFU25/2650-weekly-exercises/assets/10173141/29c8d6bb-017d-403a-92f1-3b8a7f4894d8)
----
 
-Modify the CSS file, [flex1.css](./flex1.css), using Flexbox so that you get these results. 
+Modify the CSS file using Flexbox so that you get these results. Note: these questions are not cumulative, you are expected to "start over" after each one
 
-> [!IMPORTANT]
-The following three(3) questions are not cumulative, you are expected to "start over" after each one
-
-1. Notice that the text items are also centered "Item 1", "Item 2", "Item 3" [2]
+1. Notice that the text items are also centered "Item 1", "Item 2", "Item 3"
 
 ![image](https://github.com/TienSFU25/2650-weekly-exercises/assets/10173141/25fdfdca-8230-4472-a999-d7385637a960)
 
-2. Diagonal orientation [2]
+2. Diagonal orientation
 
 ![image](https://github.com/TienSFU25/2650-weekly-exercises/assets/10173141/cba0b9fd-2a65-41a5-a47f-353c2bd418a6)
 
-3. Un-comment items 4-10 in the HTML file. Use flexbox to achieve this [2]
+3. Un-comment items 4-10 in the HTML file. Use flexbox to achieve this
 
 ![image](https://github.com/TienSFU25/2650-weekly-exercises/assets/10173141/59882503-3e2c-4fe3-89be-81ec0cf853cd)
 
