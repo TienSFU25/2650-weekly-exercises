@@ -19,12 +19,12 @@
     console.log(result.map((x) => x()))
     ```
 
-    > [!IMPORTANT]
-    > **Possible response**: 
-    >  The `for` loop is executed three(3) times - `i = 0, i = 1, i = 2`. Even though the `for` loop is not executed after that, `i` is still incremented one last time (`i = 3`). Given that `i` was declared with the `var` keyword, it means the variable is globally scoped (functionally scoped if the above code is wrapped in a function). That means `i === 3`, even after the `for` loop. The subsequent `.map` then tries to access `items[3]`, which of course is `undefined`.
-    
-    > [!NOTE] 
-    > I've been extra verbose here, but the first sentence is arguably not even necessary.
+> [!IMPORTANT]
+> **Possible response**: 
+>  The `for` loop is executed three(3) times - `i = 0, i = 1, i = 2`. Even though the `for` loop is not executed after that, `i` is still incremented one last time (`i = 3`). Given that `i` was declared with the `var` keyword, it means the variable is globally scoped (functionally scoped if the above code is wrapped in a function). That means `i === 3`, even after the `for` loop. The subsequent `.map` then tries to access `items[3]`, which of course is `undefined`.
+
+> [!NOTE] 
+> I've been extra verbose here, but the first sentence is arguably not even necessary.
 
 2. **A regurgitation of the commands or steps already provided as part of a question does not amount to an explanation**.
 
@@ -49,9 +49,8 @@
         ```ts
         const magic = (num) => Math.PI * num
         ```
-        > [!IMPORTANT]
-        
-        > Please don't name functions as `magic` or the like, this is strictly for illustrative purposes.
+    > [!IMPORTANT]
+    > Please don't name functions as `magic` or the like, this is strictly for illustrative purposes.
 
     2. Second, and often forgotten, but equally important - **there should be no side effects**. 
 
@@ -99,8 +98,8 @@
 
 5. Similarly, a solution without the corresponding `package.json` cannot be run locally, because we are not able to install the required dependencies. 
 
-    > [!CAUTION]
-    > Forgetting to include the `package.json` file will likely result in a zero(0) for future submissions.
+> [!CAUTION]
+> Forgetting to include the `package.json` file will likely result in a zero(0) for future submissions.
 
 
 6. If something should be persisted to `localStorage` or to some server-side storage (in-memory, or otherwise), a simple reload of the webpage should not affect the data displayed.
