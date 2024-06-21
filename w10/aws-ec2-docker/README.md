@@ -124,9 +124,3 @@ docker run -d -p 3000:3000 --rm {name_of_your_public_docker_image}
 ```
 
 This link might help: https://www.linkedin.com/pulse/deploying-dockerized-apps-aws-ec2-yana-veitsman/
-
-### Submission
-
-Submit the link to your EC2 instance's public IPv4 address. Going to `your_ipv4_address:3000` should show us your "website" running on EC2
-
-James will grade this within the week, then be sure to turn off these instances so you don't get billed.
