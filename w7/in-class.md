@@ -1,5 +1,8 @@
 ## SQL
 
+< [!NOTE]
+< This first part is optional, and is meant to help you review SQL. It looks like most students have had experience with SQL however, so feel free to skip it
+
 We will play with SQL via this online SQL compiler: https://www.programiz.com/sql/online-compiler/. You should see the following three tables “Customers”, “Orders” and “Shippings”
 
 ![alt text](image-4.png)
