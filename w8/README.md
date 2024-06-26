@@ -19,7 +19,8 @@ I found it most useful to just clone a working example first, run it, and try to
 
 https://github.com/passport/todos-express-google
 
-> [!NOTE] > ["Todos-express-google"](https://github.com/passport/todos-express-google) by [Jared Hanson](https://www.jaredhanson.me/) is licensed under the [Unlicense](https://unlicense.org/)
+> [!NOTE]
+> ["Todos-express-google"](https://github.com/passport/todos-express-google) by [Jared Hanson](https://www.jaredhanson.me/) is licensed under the [Unlicense](https://unlicense.org/)
 
 You'll need a GCP account to setup OAuth2 credentials. Mine looks like this
 
