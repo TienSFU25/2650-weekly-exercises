@@ -30,6 +30,13 @@ The final configuration should look like this (url is at https://console.cloud.g
 
 ![alt text](image.png)
 
+Inside "TIEN PASSPORT TEST"
+
+![image](https://github.com/TienSFU25/2650-weekly-exercises/assets/10173141/f8055d5d-c337-47cc-bf97-ba5ba6aaffb1)
+
+Oauth consent screen
+![image](https://github.com/TienSFU25/2650-weekly-exercises/assets/10173141/65e8f10e-0ef2-4285-95d6-46f1425aa410)
+
 You can find documentation to setup Google here
 https://developers.google.com/identity/openid-connect/openid-connect#appsetup
 https://support.google.com/cloud/answer/10311615#zippy=%2Cin-production%2Ctesting
