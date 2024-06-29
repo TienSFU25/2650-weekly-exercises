@@ -38,8 +38,6 @@ NOTE: you do NOT have to Publish your App. As per the documentation, since we're
 
 ![image](https://github.com/TienSFU25/2650-weekly-exercises/assets/10173141/9092b2d6-e498-4cd5-968a-b12843039c37)
 
-![image](https://github.com/TienSFU25/2650-weekly-exercises/assets/10173141/67e357b9-36a5-4d19-add9-983e26e5db7b)
-
 After entering the correct `.env` file with the `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET`, you should be able to sign in the example app
 
 ![alt text](image-1.png)
