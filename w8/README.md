@@ -22,9 +22,23 @@ https://github.com/passport/todos-express-google
 > [!NOTE]
 > ["Todos-express-google"](https://github.com/passport/todos-express-google) by [Jared Hanson](https://www.jaredhanson.me/) is licensed under the [Unlicense](https://unlicense.org/)
 
-You'll need a GCP account to setup OAuth2 credentials. Mine looks like this
+You'll need a GCP account to setup OAuth2 credentials under "APIs and Services"
+
+![image](https://github.com/TienSFU25/2650-weekly-exercises/assets/10173141/8b5ed7ff-2dcd-47f5-b3f4-5c1577cd0d69)
+
+The final configuration should look like this (url is at https://console.cloud.google.com/apis/credentials?project=curious-ocean-290110)
 
 ![alt text](image.png)
+
+You can find documentation to setup Google here
+https://developers.google.com/identity/openid-connect/openid-connect#appsetup
+https://support.google.com/cloud/answer/10311615#zippy=%2Cin-production%2Ctesting
+
+NOTE: you do NOT have to Publish your App. As per the documentation, since we're only requesting basic profile information, you can leave your App in Testing
+
+![image](https://github.com/TienSFU25/2650-weekly-exercises/assets/10173141/9092b2d6-e498-4cd5-968a-b12843039c37)
+
+![image](https://github.com/TienSFU25/2650-weekly-exercises/assets/10173141/67e357b9-36a5-4d19-add9-983e26e5db7b)
 
 After entering the correct `.env` file with the `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET`, you should be able to sign in the example app
 
