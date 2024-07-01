@@ -42,6 +42,10 @@ Make sure your security group allows Inbound connections using `SSH` and `All TC
 
 ![alt text](image-8.png)
 
+Also configure Outbound connections to allow `All TCP`. To keep things simple lets allow any kind of Outbound connections, so that package managers can download from external sites to install `Git` and `Docker`
+
+![image](https://github.com/TienSFU25/2650-weekly-exercises/assets/10173141/1da9fffe-3a94-4ff9-9747-9246a4bca818)
+
 ### Connecting to EC2
 
 Now let's connect to your EC2 instance
