@@ -22,6 +22,14 @@ Here's the three pieces that we'll put together in this week's exercise
 - [Setup Billing alerts](aws-billing-alerts.md)
 - ["Deploying" a Docker app to EC2](./aws-ec2-docker/README.md)
 
+### Clean up (DO THIS AFTER YOUR EXERCISE IS GRADED)
+
+Go to your EC2 homescreen. Ensure all instances are **terminated**, and delete all your EBS "Volumes" (Volumes are essentially units of storage on AWS).
+
+![image](https://github.com/user-attachments/assets/95c4b309-9bba-4821-b8bd-962c1c44f360)
+
+(tldr make everything on this page zero)
+
 ### Submission
 
 1. Screenshot of your IAM Identity Users page, showing that you've setup an IAM Account with the appropriate Permissions
@@ -31,3 +39,10 @@ Here's the three pieces that we'll put together in this week's exercise
 3. Git repo of how you've Dockerized the `2650-docker-ec2` app (I imagine the Docker commits on top of the existing commits)
 
 Jamie will grade this within the week, then be sure to turn off your EC2 instances (and whatever else you have on AWS) so you don't get billed.
+
+### AWS Alternatives
+
+If you have trouble signing up with AWS, OR have familiarity with another cloud platform, such as Azure or GCP, **feel free to use those instead**. Please submit 
+- the public IPV4 address to where I can access your website that hosts the site at https://github.com/TienSFU25/2650-docker-ec2 (more instructions [here](https://github.com/TienSFU25/2650-docker-ec2))
+- Git SHA + Github link to your repo that should contain the Dockerfile/docker-composes
+
