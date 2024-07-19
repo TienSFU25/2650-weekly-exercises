@@ -13,7 +13,7 @@ Reposting of the submission requirements inside the AWS Exercise file.
 
 2. Link to your EC2 instance's public IPv4 address. Going to `your_ipv4_address:3000` should show us your "website" running on EC2
 
-~3. Git repo of how you've Dockerized the `2650-docker-ec2` app (I imagine the Docker commits on top of the existing commits)~ (Tien mistakenly put the solution in the Github...whoops!)
+~3. Git repo of how you've Dockerized the `2650-docker-ec2` app (I imagine the Docker commits on top of the existing commits)~ (Tien mistakenly put the solution in the Github...whoops! If you still want practice, try achieving the same thing with Docker compose instead of a single Dockerfile)
 
 Jamie will grade this within the week, then be sure to turn off your EC2 instances (and whatever else you have on AWS) so you don't get billed.
 
